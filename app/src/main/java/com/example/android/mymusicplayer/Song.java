@@ -4,6 +4,9 @@ package com.example.android.mymusicplayer;
 create a custom class Song to store data about every song and
  */
 
+import android.widget.ImageView;
+import android.widget.TextView;
+
 public class Song {
     //declare the member fields to store data about the song object
     private String mSongName;
@@ -30,4 +33,5 @@ public class Song {
     public int getAlbumArt() {
         return mAlbumArt;
     }
+
 }
