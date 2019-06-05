@@ -5,12 +5,12 @@ create a custom class Song to store data about every song and
  */
 
 public class Song {
-    //declate the member fields to store data about the song object
-    String mSongName;
-    String mArtistName;
-    int mAlbumArt;
+    //declare the member fields to store data about the song object
+    private String mSongName;
+    private String mArtistName;
+    private int mAlbumArt;
 
-    // constructor that gets called everytime a new instance is created
+    // constructor that gets called every time a new instance is created
     //the constructor job is to set the member variables value to the args value
     public Song(String songName, String artistName, int albumArt) {
         mSongName = songName;
@@ -18,7 +18,7 @@ public class Song {
         mAlbumArt = albumArt;
     }
 
-    // getter methods to get the songName and artist name and albumart
+    // getter methods to get the songName and artist name and album art
     public String getSongName() {
         return mSongName;
     }
